@@ -1,0 +1,33 @@
+Istruzioni per l'Esecuzione del Software
+
+Per compilare ed eseguire correttamente il parser Java per file Excellon, seguire i passaggi descritti di seguito:
+
+• 1. Prerequisiti di sistema
+
+o Assicurarsi di avere installato sul proprio computer il Java Development Kit
+(JDK / JVM) aggiornato, indispensabile per garantire la portabilità multipiattaforma dell'applicazione.
+
+• 2. Download dei file
+
+- Scaricare tutti i file sorgente del progetto e i dataset di prova direttamente dal repository GitHub ufficiale: Excellon-Parser-App su GitHub
+- Salvare tutti i file all'interno di un'unica cartella di lavoro locale.
+
+• 3. Compilazione del codice sorgente
+
+Aprire il Prompt dei comandi (CMD su Windows) o il terminale (su Linux/macOS).
+
+Posizionarsi all'interno della cartella in cui sono stati salvati i file sorgente utilizzando il comando cd:
+
+cd percorso_della_cartella
+
+Compilare i file sorgente Java digitando il comando:
+
+javac *.java
+
+• 4. Esecuzione dell'applicazione
+
+Modalità Interfaccia Grafica (GUI): Per avviare l'ambiente desktop interattivo sviluppato in Java Swing, eseguire il comando
+
+java ExcellonParserApp
+
+Una volta aperta la finestra dell'applicazione, utilizzare il pulsante di importazione file per selezionare il file .drl (Excellon) desiderato, visualizzare la tabella degli utensili, il conteggio dei fori, le metriche geometriche e il registro di diagnostica.
